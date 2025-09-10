@@ -1,6 +1,6 @@
 # Galeria Dê Amaral
 
-Using Horizon theme from [Cosmic Themes](https://cosmicthemes.com/) to create gallery website for artist's Dê Amaral.
+Using Horizon theme from [Cosmic Themes](https://cosmicthemes.com/) to create gallery website for artist Dê Amaral.
 
 ## License
 
