@@ -11,6 +11,7 @@
 /* other imports into specific layers */
 @import "./markdown-content.css" layer(components);
 @import "./buttons.css" layer(components);
+@import "./links.css" layer(components);
 
 /* https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer */
 @layer base {
@@ -23,16 +24,19 @@
 	* {
 		@apply border-base-200 outline-none;
 	}
+
 	*:focus-visible {
 		@apply ring-primary-300 rounded-none ring-2 transition-none outline-none;
 	}
+
 	html {
-		@apply bg-base-100 text-base-900 leading-[1.6rem] scheme-light;
+		@apply bg-white text-base-900 leading-[1.6rem] scheme-light;
 		scroll-behavior: smooth;
 		-moz-text-size-adjust: none;
 		-webkit-text-size-adjust: none;
 		text-size-adjust: none;
 	}
+
 	button {
 		@apply cursor-pointer;
 	}
@@ -76,6 +80,7 @@
 }
 
 @layer utilities {
+
 	/* main gradient. Used for categories and some headings */
 	.main-text-gradient {
 		@apply bg-gradient-to-r from-indigo-600 to-sky-600 bg-clip-text text-transparent;
@@ -84,4 +89,8 @@
 	.rotate-180 {
 		@apply rotate-180;
 	}
+}
+
+@theme {
+	--font-sans: 'Italiana', 'sans-serif';
 }

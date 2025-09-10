@@ -1,0 +1,48 @@
+---
+import { Image } from 'astro:assets';
+import image1 from '../../assets/images/9.jpg'
+import image2 from '../../assets/images/5.jpg'
+import image3 from '../../assets/images/2.jpg'
+import image4 from '../../assets/images/15.jpeg'
+import image5 from '../../assets/images/7.jpg'
+import image6 from '../../assets/images/17.jpeg'
+import image7 from '../../assets/images/14.jpeg'
+import image8 from '../../assets/images/4.jpg'
+import image9 from '../../assets/images/16.jpeg'
+import image10 from '../../assets/images/8.jpeg'
+import image11 from '../../assets/images/1.jpg'
+import image12 from '../../assets/images/6.jpg'
+import image14 from '../../assets/images/last.png'
+
+---
+<div class='mx-auto my-0 max-w-[1200px]'>
+  <div class='grid grid-cols-3 gap-1.5 mb-1.5 mt-5 mx-5'>
+    <!-- Row 1 -->
+    <Image src={image1} alt='' class='aspect-[4/3] col-span-2 col-start-1' />
+    <div class='col-span-1 flex flex-col gap-1.5 items-center'>
+      <Image src={image2} alt='' class='' />
+      <Image src={image3} alt='' class='' />
+    </div>
+    <!-- Row 2 -->
+    <Image src={image4} alt='' class='h-[100%] col-span-1 object-center object-cover' />
+    <Image src={image5} alt='' class='col-span-2 object-center object-cover' />
+  </div>
+  <div class='grid grid-cols-4 gap-1.5 my-1.5 mx-5'>
+    <!-- Row 3 -->
+    <Image src={image6} alt='' class='col-span-2 object-center object-cover h-[100%] aspect-[2/3]' />
+    <div class='grid grid-cols-3 gap-1.5 col-span-2'>
+      <Image src={image7} alt='' class='h-[100%] aspect-[2/3] object-center object-cover col-span-1' />
+      <Image src={image8} alt='' class='h-[100%] aspect-[2/3] object-center object-cover col-span-1' />
+      <Image src={image9} alt='' class='h-[100%] aspect-[2/3] object-center object-cover col-span-1' />
+      <Image src={image11} alt='' class='col-span-3 object-center object-cover h-[100%] ' />
+    </div>
+  </div>
+  <!-- Row 4 -->
+  <div class='grid grid-cols-3 gap-1.5 my-1.5 mx-5'>
+    <Image src={image12} alt='' class='col-span-2 aspect-[3/4]' />
+    <div class='col-span-1 flex flex-col gap-1.5'>
+      <Image src={image14} alt='' class='' />
+      <Image src={image10} alt='' class='' />
+    </div>
+  </div>
+</div>
