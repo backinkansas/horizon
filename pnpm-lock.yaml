@@ -26,9 +26,18 @@ importers:
       '@fontsource-variable/work-sans':
         specifier: 5.2.5
         version: 5.2.5
+      '@fontsource/aboreto':
+        specifier: ^5.2.6
+        version: 5.2.6
+      '@fontsource/birthstone':
+        specifier: ^5.2.6
+        version: 5.2.7
       '@fontsource/cinzel-decorative':
         specifier: 5.2.5
         version: 5.2.5
+      '@fontsource/italiana':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@iconify-json/tabler':
         specifier: 1.2.17
         version: 1.2.17
@@ -387,8 +396,17 @@ packages:
   '@fontsource-variable/work-sans@5.2.5':
     resolution: {integrity: sha512-zvoUtTMsk0c0Iygz8DAWrSdVgQvcIMxRtLS7a1H3tFuUHIOAN0NHRrwONyeebDuzXrgAUmSrDOAxOz5D+pn6nw==}
 
+  '@fontsource/aboreto@5.2.6':
+    resolution: {integrity: sha512-jxhb83jURcL6f+3tOyoPAw2B/HxMY19zOUjLYT4pjnAq2Kr+SprSv1/oTqmmfLeCUOlqY3BRZmcck9S5zYVvpw==}
+
+  '@fontsource/birthstone@5.2.7':
+    resolution: {integrity: sha512-2u2bYvB4rRfc1MPVmH4hOsyrBXEcxzFbwID+hQf7EumJ7lwc6WYZ4RVoXvRcwccu60Ler2MpS/DltDoHnrvA3g==}
+
   '@fontsource/cinzel-decorative@5.2.5':
     resolution: {integrity: sha512-iXN1HxjU8AHHnkDXeIu5apPgFuBxkwnL3GVPrDvCmylCXl+45hx1GNhtzCzFd2zJwBsv+ggOOIgshBMJB8ymgg==}
+
+  '@fontsource/italiana@5.2.7':
+    resolution: {integrity: sha512-XQ22sB70eShksxbQAmftnqABIDzJddDmdmgnKGYP6Gj2T4IK95z9plMVMyjgS3k5PHnCikzGqlkndjXRa/2N+w==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -4085,7 +4103,13 @@ snapshots:
 
   '@fontsource-variable/work-sans@5.2.5': {}
 
+  '@fontsource/aboreto@5.2.6': {}
+
+  '@fontsource/birthstone@5.2.7': {}
+
   '@fontsource/cinzel-decorative@5.2.5': {}
+
+  '@fontsource/italiana@5.2.7': {}
 
   '@humanfs/core@0.19.1': {}
 
